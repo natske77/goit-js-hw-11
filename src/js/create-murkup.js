@@ -5,6 +5,7 @@ export function createSearchSubjectMarkup(e) {
     </h2>`;
 }
 
+
 export function createArrayElementsMarkup(arrayElements) {
   return arrayElements
     .map(
@@ -34,3 +35,5 @@ export function createArrayElementsMarkup(arrayElements) {
     )
     .join('');
 }
+
+//1111111
