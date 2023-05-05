@@ -35,5 +35,3 @@ export function createArrayElementsMarkup(arrayElements) {
     )
     .join('');
 }
-
-//1111111
