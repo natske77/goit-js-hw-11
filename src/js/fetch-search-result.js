@@ -1,5 +1,5 @@
 const BASE_URl = 'https://pixabay.com/api/';
-const KEY = '35972928-442e66beac26395ab9a996585';
+const KEY = '36140304-24ca5329f989cc2333b5f303d';
 
 const searchParams = new URLSearchParams({
   key: KEY,
