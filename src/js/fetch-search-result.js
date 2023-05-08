@@ -10,7 +10,7 @@ const searchParams = new URLSearchParams({
 });
 
 export async function fetchSearchResult(searchElement, page) {
-  const response = await fetch(
+  const response = await axios.get(
     `${BASE_URl}?${searchParams}&q=${searchElement}&page=${page}`
   );
   const arrayElements = await response.json();
@@ -22,7 +22,7 @@ export async function fetchSearchResult(searchElement, page) {
 }
 
 export async function fetchDownloadMore(searchElement, page) {
-  const response = await fetch(
+  const response = await axios.get(
     `${BASE_URl}?${searchParams}&q=${searchElement}&page=${page}`
   );
   const arrayElements = await response.json();
