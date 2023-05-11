@@ -1,0 +1,131 @@
+button {
+  outline: none;
+  padding: 0;
+}
+
+.search-form__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transform: translateX(268px);
+  height: 30px;
+  width: 40px;
+  border: none;
+  border-left: 1px solid #777777;
+  border-radius: 0 2px 2px 0;
+  background-color: #dbdbdb;
+}
+.search-form__btn:hover, .search-form__btn :focus {
+  background-color: #313030;
+}
+.search-form__btn:hover .search-form__icon-btn, .search-form__btn :focus .search-form__icon-btn {
+  fill: #ffffff;
+}
+
+.search-form__icon-btn {
+  fill: #000000;
+}
+
+.button-up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: green;
+  color: #ffffff;
+  font-size: 30px;
+  border: 3px solid #000000;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #313131;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+input {
+  height: 30px;
+  width: 300px;
+  padding: 0;
+  padding-left: 5px;
+  border: 3px solid #777777;
+  border-radius: 5px;
+}
+
+body {
+  margin: 0;
+  background-color: bisque;
+}
+
+.search-subject-container {
+  padding-top: 20px;
+}
+
+.search-subject {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.search-subject__text {
+  margin: 0;
+}
+
+.search-subject__span {
+  text-transform: uppercase;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery__image {
+  display: block;
+  height: 200px;
+  width: 300px;
+}
+
+.photo-card {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: azure;
+  border-radius: 0px 0px 20px 20px;
+  border-bottom: 2px solid #313131;
+  border-right: 2px solid #313131;
+  border-left: 2px solid #313131;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}/*# sourceMappingURL=index.css.map */

@@ -14,7 +14,7 @@ export async function fetchSearchResult(searchElement, page) {
   const response = await axios.get(
     `${BASE_URl}?${searchParams}&q=${searchElement}&page=${page}`
   );
-  const arrayElements = await response.json();
+const arrayElements = response.data;
   if (arrayElements.hits.length === 0) {
     throw new Error();
   }
@@ -26,7 +26,7 @@ export async function fetchDownloadMore(searchElement, page) {
   const response = await axios.get(
     `${BASE_URl}?${searchParams}&q=${searchElement}&page=${page}`
   );
-  const arrayElements = await response.json();
+const arrayElements = response.data;
 
   return arrayElements;
 }

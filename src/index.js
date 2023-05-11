@@ -80,7 +80,8 @@ function readingInputField(e) {
 
       gallery.refresh();
     })
-    .catch(() => {
+    .catch((error) => {
+      console.log(error)
       refs.btnToTop.classList.add('is-hidden');
       Notify.failure(
         'Sorry, there are no images matching your search query. Please try again.'
